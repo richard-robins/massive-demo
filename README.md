@@ -70,7 +70,7 @@ var conn = massive.connectSync({
 Connect your massive instance to a `db` key:
 
 ```javascript
-app.set('db', massive);
+app.set('db', conn);
 ```
 
 Set a var `db` to the value of the key:
