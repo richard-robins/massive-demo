@@ -62,7 +62,7 @@ var massive = require('massive')
 In `server.js` [add code to connect](https://github.com/robconery/massive-js#express-example) to your database:
 
 ```javascript
-var massive = massive.connectSync({
+var conn = massive.connectSync({
   connectionString : "postgres://massive:password@localhost/your-database-name"
 });
 ```
